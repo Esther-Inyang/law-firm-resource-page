@@ -1,0 +1,218 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #A6CB45;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    header{
+        width: 100%;
+        background-color: gray;
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+        margin: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .sections{
+        width: 100%;
+        text-align: center;
+        padding: 50px 0 50px 0;
+    }
+
+    .sections-div{
+        display: inline-block;
+    }
+
+    .section1-container {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .section2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section2-div{
+        display: inline-block;
+    }
+
+    .services-div{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .service {
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .service-desc{
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .service img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: 2.5px solid white;
+    }
+
+    .article{
+        display: flex;
+        border: 1px solid white;
+    }
+    
+    .article-image{
+        background-color: gray;
+        padding: 40px 10px 10px 10px; 
+    }
+
+    .article-image img{
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+
+    .article-title{
+        background-color: white;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        cursor: pointer;
+    }
+
+    .article-div{
+        width: 100%;
+    }
+
+    .article-list p {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    .article-list{
+        background-color:  #A6CB45;
+        padding: 10px  
+    }
+
+    .article-list ul{
+        margin: 0;
+    }
+
+    .article-list ul li{
+        list-style-type: square;
+        font-size: 20px;
+    }
+    
+    .contact {
+        font-weight: bold;
+        margin: 20px;
+    }
+    span {
+        font-size: 22px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .socialmedia {
+        text-align: right;
+        padding-right: 50px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .socialmedia ul{
+        list-style-type: none;
+        margin: 5px;
+        padding: 0;
+    } 
+
+    .socialmedia ul li{
+        display: inline;
+    }
+    
+    .socialmedia ul li a{
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+    }
+    .socialmedia img {
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        border: 1px solid grey;
+        margin: 0;
+        padding: 0;
+    }
+
+    .socialmedia img:hover {
+        border: 2px solid white;
+    }
+
+    .faceB {
+        background-color: white;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    
+@media only screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .section1-container {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .services-div{
+        display: block;
+        margin-top: 0px;
+    }
+
+    .service img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .service-desc{
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 380px){
+    
+    .sections{
+        padding: 30px 0 30px 0;
+    }
+
+    .service img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .service-desc{
+        font-size: 20px;
+    }
+
+}
+
